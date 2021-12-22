@@ -1,0 +1,10 @@
+import time
+f=open("print.py","w+")
+print()
+print("file information")
+print("name of the file is",f.name)
+print('mode of the file is',f.mode)
+print("file closed or not",f.closed)
+print("file is readable or not",f.readable())
+print("file is wriatabale or nor",f.writable())
+f.close()

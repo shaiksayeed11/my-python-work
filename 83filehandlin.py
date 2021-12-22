@@ -1,0 +1,10 @@
+import time
+f=open("data.txt","w")
+f.write("8929004444\n")
+f.write("9440002523\n")
+f.write("909090909\n")
+print("file and its content is created ")
+f.close()
+print()
+time.sleep(1)
+print("end of an application")

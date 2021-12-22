@@ -1,0 +1,16 @@
+import time
+def emp(ename,eid,esal,designation,company):
+    ename=eval(input("enter the employee name"))
+    eid=eval(input("enter the employee id"))
+    designation=eval(input("enter the designation of employee"))
+    company=eval(input("enter the companty of employee"))
+    print("employee informtion is")
+    print("employee name is",ename)
+    print("employee id is",eid)
+    print("employee salary is",esal)
+    print("employe designation is",designation)
+    print("employe companyy is",company)
+print()
+emp(ename="",esal="",eid="",designation="",company="")
+time.sleep(1)
+print("end of an application")

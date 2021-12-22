@@ -1,0 +1,1 @@
+-1} loves {2}".format("everyone","python.hub"))
